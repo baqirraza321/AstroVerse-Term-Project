@@ -1,0 +1,64 @@
+body{
+    background-color: #0b0d17;
+    color: #e8eaf6;
+    box-sizing: border-box;
+}
+
+#Hero .navBar{
+    margin: 0;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-style: none;
+    color: #e8eaf6;
+}
+.navBar ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    color: #e8eaf6;
+}
+.navBar a{
+    text-decoration: none;
+    color: #e8eaf6;
+    font-size: 19px;
+}
+#Hero .brand{
+    font-size: 26px;
+}
+#Hero .brand small{
+    font-size: 15px;
+}
+#Hero .navBar .brandLogo{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+.navBar a:hover{
+    color: cadetblue;
+}
+.navBar .dropdown-menu {
+    display: flex;
+    flex-direction: column;
+}
+.navBar .dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    flex-direction: column;
+    background-color: #0b0d17;
+    padding: 10px;
+    border: 1px solid #e8eaf6;
+    min-width: 130px;
+    gap: 10px;
+    z-index: 100;
+}
+
+.navBar ul li.dropdown {
+    position: relative;
+}
+.navBar ul li.dropdown:hover .dropdown-menu {
+    display: flex;
+}
