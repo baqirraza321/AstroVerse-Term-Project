@@ -1,42 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700&display=swap');
 body{
+    background-image: url(https://img.magnific.com/free-photo/cosmic-landscape-space-background_23-2151955856.jpg?semt=ais_hybrid&w=740&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
     background-color: #0b0d17;
     color: #e8eaf6;
     box-sizing: border-box;
+    margin: 0;
 }
-
 #Hero .navBar{
+    top: 0;
+    display: flex;
+    background-color: #9c3cd4d7;
+    /* justify-content: space-evenly; */
+}
+nav {
+    margin-left: 80px;
+    position: sticky;
+    top: 0;
+    backdrop-filter: blur(10px);
+    padding: 2% 8%;
+    justify-content: space-evenly;
+}
+/* #Hero .navBar{
     margin: 0;
     padding: 15px 30px;
+    max-width: 100%;
     display: flex;
     justify-content: space-between;
     text-align: center;
     font-style: none;
     color: #e8eaf6;
-}
-.navBar ul{
+    background-color: #0b0d17;
+    position: fixed;
+} */
+nav ul{
     display: flex;
-    gap: 20px;
+    gap: 90px;
     list-style: none;
     color: #e8eaf6;
 }
-.navBar a{
+nav a{
     text-decoration: none;
-    color: #e8eaf6;
+    color: #f9fafb;
     font-size: 19px;
+    transition: 0.3s ease;
+    display: inline-block;
+    font-family: 'Orbitron';
+    font-weight: 400;
 }
 #Hero .brand{
-    font-size: 26px;
+    margin-left: 18%;
+    font-size: 22px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Orbitron';
 }
 #Hero .brand small{
-    font-size: 15px;
+    font-size: 12px;
 }
 #Hero .navBar .brandLogo{
     display: flex;
     gap: 12px;
     align-items: center;
+    font-weight: 600;
 }
-.navBar a:hover{
-    color: cadetblue;
+#Hero .navBar .brandLogo a{
+    transition: 0.5s ease;
+}
+#Hero .navBar .brandLogo a:hover{
+    color: rgb(9, 15, 15);
+    transform: rotateX(360deg);
+}
+nav a:hover{
+    color: white;
+    transform: translateY(-5px);
+    padding: 7px;
+    background-color: rgb(245, 143, 245);
+    border:#f8f7f6 solid 3px;
+    border-radius: 8px;
 }
 .navBar .dropdown-menu {
     display: flex;
@@ -48,7 +92,7 @@ body{
     top: 100%;
     right: 0;
     flex-direction: column;
-    background-color: #0b0d17;
+    background-color: #020205;
     padding: 10px;
     border: 1px solid #e8eaf6;
     min-width: 130px;
