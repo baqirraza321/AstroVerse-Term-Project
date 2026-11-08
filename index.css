@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;500;600&family=Orbitron:wght@400;500;700&display=swap');
 body{
-    background-image: url(https://img.magnific.com/free-photo/cosmic-landscape-space-background_23-2151955856.jpg?semt=ais_hybrid&w=740&q=80);
+    background-image: url(https://aasnova.org/wp-content/uploads/2024/04/ZTF_BH_Merger_webready.max-1400x800-1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -10,11 +10,11 @@ body{
     box-sizing: border-box;
     margin: 0;
 }
+/* ------------- NAVBAR ------------- */
 #Hero .navBar{
     top: 0;
     display: flex;
-    background-color: #9c3cd4d7;
-    /* justify-content: space-evenly; */
+    background-color: #847a6bd7;
 }
 nav {
     margin-left: 80px;
@@ -24,38 +24,25 @@ nav {
     padding: 2% 8%;
     justify-content: space-evenly;
 }
-/* #Hero .navBar{
-    margin: 0;
-    padding: 15px 30px;
-    max-width: 100%;
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-    font-style: none;
-    color: #e8eaf6;
-    background-color: #0b0d17;
-    position: fixed;
-} */
 nav ul{
     display: flex;
     gap: 90px;
     list-style: none;
-    color: #e8eaf6;
 }
 nav a{
     text-decoration: none;
-    color: #f9fafb;
-    font-size: 19px;
+    color: #ebd6b6;
+    font-size: 21px;
     transition: 0.3s ease;
     display: inline-block;
-    font-family: 'Orbitron';
-    font-weight: 400;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 500;
 }
 #Hero .brand{
     margin-left: 18%;
-    font-size: 22px;
+    font-size: 30px;
     text-decoration: none;
-    color: white;
+    color: #ebd6b6;
     font-family: 'Orbitron';
 }
 #Hero .brand small{
@@ -71,14 +58,14 @@ nav a{
     transition: 0.5s ease;
 }
 #Hero .navBar .brandLogo a:hover{
-    color: rgb(9, 15, 15);
+    color: rgb(77, 50, 38);
     transform: rotateX(360deg);
 }
 nav a:hover{
-    color: white;
+    /* color: rgb(87, 54, 37); */
     transform: translateY(-5px);
     padding: 7px;
-    background-color: rgb(245, 143, 245);
+    background-color: rgb(55, 32, 21);
     border:#f8f7f6 solid 3px;
     border-radius: 8px;
 }
@@ -92,17 +79,67 @@ nav a:hover{
     top: 100%;
     right: 0;
     flex-direction: column;
-    background-color: #020205;
+    background-color: #847a6be8;
     padding: 10px;
     border: 1px solid #e8eaf6;
+    border-radius: 10px;
     min-width: 130px;
     gap: 10px;
     z-index: 100;
 }
-
 .navBar ul li.dropdown {
     position: relative;
 }
 .navBar ul li.dropdown:hover .dropdown-menu {
     display: flex;
+}
+/* ------------- Headings ------------- */
+#Hero .Headings{
+    background-color: rgba(77, 50, 38, 0.492);
+    max-width: 70%;
+    margin-left: 14%;
+    height: 500px;
+    border-radius: 20px;
+}
+#Hero .Headings .hook p{
+    color: #efec96;
+    font-size: 50px;
+    padding-top: 5%;
+    padding-left: 3%;
+    line-height: 100px;
+    font-family: "Orbitron";
+}
+#Hero .Headings .hook p span{
+    color: #ebd6b6;
+    padding-left: 9%;
+    font-weight: bold;
+    font-size: 80px;
+}
+#Hero .Headings .Bottom-Text p{
+    color: #e8eaf6;
+    font-size: 30px;
+    /* padding-top: 5%; */
+    line-height: 30px;
+    padding-left: 3%;
+    font-family: 'Exo 2', sans-serif;
+}
+/* ------------------ Images ----------------- */
+#Solar-trip .images{
+    margin-left: 29%;
+    max-width: 40%;
+    padding-top: 4px;
+    background-color: rgba(255, 255, 255, 0.248);
+    border-radius: 20px;
+}
+/* ------------------ Footer -----------------*/
+footer{
+    background-color: #00020caa;   
+}
+footer a{
+    font-family: 'Orbitron', sans-serif;
+    text-decoration: none;
+    color: #ebd6b6;
+}
+footer p{
+    font-family: 'Exo 2', sans-serif;
 }
