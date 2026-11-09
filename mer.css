@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;500;600&family=Orbitron:wght@400;500;700&display=swap');
+
+/* ------------- GENERAL STYLES ------------- */
+body {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7XjPw7BA0gqrQkHl59t0s15WLY9O4QVrekZ3QmA83en5Z0q4VEiSmM1E&s=10);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-color: #0b0d17;
+    color: #e8eaf6;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Exo 2', sans-serif;
+    padding: 0 20px 40px 20px;
+}
+
+/* ------------- NAVBAR ------------- */
+#Hero .Nav-Bar {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(11, 13, 23, 0.85);
+    border-bottom: 1px solid rgba(56, 189, 248, 0.3);
+    border-radius: 0 0 15px 15px;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    backdrop-filter: blur(10px);
+}
+
+#Hero .Nav-Bar li {
+    list-style: none;
+}
+
+#Hero .Nav-Bar ul {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#Hero .Nav-Bar a {
+    text-decoration: none;
+    color: #cbd5e1;
+    font-size: 18px;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 500;
+    transition: 0.3s ease;
+    display: inline-block;
+}
+
+#Hero .Nav-Bar a:hover {
+    transform: translateY(-3px);
+    padding: 5px 10px;
+    background-color: rgba(56, 189, 248, 0.15);
+    color: #38bdf8;
+    border: #38bdf8 solid 1px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(56, 189, 248, 0.4);
+}
+
+/* ------------- HERO SECTION ------------- */
+#Hero .Headings {
+    background-color: rgba(11, 13, 23, 0.75);
+    max-width: 70%;
+    margin: 40px auto;
+    padding: 40px;
+    text-align: center;
+    border-radius: 20px;
+    border: 1px solid rgba(56, 189, 248, 0.2);
+    backdrop-filter: blur(8px);
+}
+
+#Hero .Headings h1 {
+    color: #38bdf8;
+    font-size: 50px;
+    font-family: "Orbitron", sans-serif;
+    line-height: 70px;
+    margin-bottom: 25px;
+    text-shadow: 0 0 12px rgba(56, 189, 248, 0.3);
+}
+
+#Hero .Headings img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+    border: 2px solid #38bdf8;
+}
+
+/* ------------- INTRODUCTION & RESEARCH DATA SECTIONS ------------- */
+#Introduction, #Research-Data {
+    background-color: rgba(11, 13, 23, 0.92);
+    max-width: 70%;
+    margin: 30px auto;
+    padding: 30px 40px;
+    border-radius: 20px;
+    border: 1px solid rgba(203, 213, 225, 0.15);
+    backdrop-filter: blur(8px);
+}
+
+#Introduction h2, #Research-Data h2, #Gallery h2 {
+    font-family: 'Orbitron', sans-serif;
+    color: #38bdf8;
+    font-size: 32px;
+    border-bottom: 2px solid #38bdf8;
+    padding-bottom: 10px;
+    margin-top: 0;
+}
+
+#Introduction p, #Research-Data p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+#Research-Data p span {
+    color: #38bdf8;
+    font-weight: bold;
+    font-family: 'Orbitron', sans-serif;
+}
+
+/* ------------- GALLERY SECTION ------------- */
+#Gallery {
+    background-color: rgba(11, 13, 23, 0.75);
+    max-width: 70%;
+    margin: 30px auto;
+    padding: 30px 40px;
+    border-radius: 20px;
+    text-align: center;
+    border: 1px solid rgba(203, 213, 225, 0.15);
+    backdrop-filter: blur(8px);
+}
+
+#Gallery img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin: 10px;
+    border-radius: 12px;
+    border: 2px solid #cbd5e1;
+    background-color: rgba(255, 255, 255, 0.05);
+    transition: 0.3s ease;
+}
+
+#Gallery img:hover {
+    transform: scale(1.05);
+    border-color: #38bdf8;
+    box-shadow: 0 0 12px rgba(56, 189, 248, 0.5);
+}
+
+/* ------------- CONTACT US SECTION ------------- */
+#Contact-Us {
+    background-color: rgba(11, 13, 23, 0.85);
+    max-width: 70%;
+    margin: 30px auto;
+    padding: 20px 40px;
+    border-radius: 20px;
+    text-align: center;
+    border: 1px solid #38bdf8;
+    backdrop-filter: blur(10px);
+}
+
+#Contact-Us h4 {
+    font-family: 'Orbitron', sans-serif;
+    color: #38bdf8;
+    font-size: 18px;
+    margin: 10px 0;
+}
