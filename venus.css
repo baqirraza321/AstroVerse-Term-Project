@@ -99,7 +99,7 @@ body {
 
 #Introduction h2 {
     font-family: 'Orbitron', sans-serif;
-    color: #ebd6b6;
+    color: #efec96;
     font-size: 32px;
     border-bottom: 2px solid #ebd6b6;
     padding-bottom: 10px;
@@ -114,7 +114,7 @@ body {
 }
 
 /* ------------- RESEARCH DATA SECTION ------------- */
-#Research Data {
+#Research-Data {
     background-color: rgba(77, 50, 38, 0.35);
     max-width: 70%;
     margin: 30px auto;
@@ -123,36 +123,36 @@ body {
     backdrop-filter: blur(5px);
 }
 
-#Research Data h2 {
+#Research-Data h2 {
     font-family: 'Orbitron', sans-serif;
-    color: #0b0a08;
+    color: #efec96;
     font-size: 32px;
     border-bottom: 2px solid #ebd6b6;
     padding-bottom: 10px;
     margin-top: 0;
 }
 
-#Research Data ol {
+#Research-Data ol {
     padding-left: 20px;
 }
 
-#Research Data li {
+#Research-Data li {
     font-family: 'Orbitron', sans-serif;
-    color: #0b0a08; /* Accent highlight color for list item titles */
+    color: #efec96; /* Accent highlight color for list item titles */
     font-size: 19px;
     margin-top: 20px;
 }
 
-#Research Data li strong {
-    color: #0b0a08;
+#Research-Data li strong {
+    color: #efec96;
 }
 
-#Research Data p {
+#Research-Data p {
     font-size: 18px;
     line-height: 1.6;
     margin-top: 5px;
     margin-bottom: 15px;
-    color: #0b0a08; /* Clean light text color for descriptions */
+    color: white; /* Clean light text color for descriptions */
 }
 
 /* ------------- GALLERY SECTION ------------- */
@@ -168,7 +168,7 @@ body {
 
 #Gallery h2 {
     font-family: 'Orbitron', sans-serif;
-    color: #ebd6b6;
+    color: #efec96;
     font-size: 32px;
     border-bottom: 2px solid #ebd6b6;
     padding-bottom: 10px;
@@ -215,12 +215,12 @@ footer nav ul {
 footer a {
     font-family: 'Orbitron', sans-serif;
     text-decoration: none;
-    color: #ebd6b6;
+    color: #efec96;
     transition: 0.3s ease;
 }
 
 footer a:hover {
-    color: #efec96;
+    color: white;
     text-decoration: underline;
 }
 

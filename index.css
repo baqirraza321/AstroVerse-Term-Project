@@ -123,23 +123,58 @@ nav a:hover{
     padding-left: 3%;
     font-family: 'Exo 2', sans-serif;
 }
-/* ------------------ Images ----------------- */
-#Solar-trip .images{
-    margin-left: 29%;
-    max-width: 40%;
-    padding-top: 4px;
-    background-color: rgba(255, 255, 255, 0.248);
+/* ----------------- Gallery ----------------*/
+#Gallery {
+    background-color: rgba(11, 13, 23, 0.75);
+    max-width: 70%;
+    margin: 30px auto;
+    padding: 30px 40px;
     border-radius: 20px;
+    text-align: center;
+    border: 1px solid rgba(203, 213, 225, 0.15);
+    backdrop-filter: blur(8px);
+}
+
+#Gallery img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin: 10px;
+    border-radius: 12px;
+    border: 2px solid #cbd5e1;
+    background-color: rgba(255, 255, 255, 0.05);
+    transition: 0.3s ease;
+}
+
+#Gallery img:hover {
+    transform: scale(1.05);
+    border-color: #8c8c8c;
+    box-shadow: 0 0 12px #737373;
 }
 /* ------------------ Footer -----------------*/
 footer{
-    background-color: #00020caa;   
+    background-color: rgba(11, 13, 23, 0.85);
+    max-width: 70%;
+    margin: 30px auto;
+    padding: 20px 40px;
+    border-radius: 20px;
+    text-align: center;
+    border: 1px solid ebd6b6;
+    backdrop-filter: blur(10px);   
 }
 footer a{
     font-family: 'Orbitron', sans-serif;
     text-decoration: none;
     color: #ebd6b6;
+    transition: 0.3s ease;
+}
+footer a:hover{
+    color: #ffffff;
+    text-decoration: underline;
 }
 footer p{
     font-family: 'Exo 2', sans-serif;
+    color: ebd6b6;
+    font-size: 18px;
+    margin: 10px 0;
 }
