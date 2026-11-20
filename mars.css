@@ -2,7 +2,7 @@
 
 /* ------------- GENERAL STYLES ------------- */
 body {
-    background-image: url(images/marssurf.jfif); /* Replace with local mars background filename if needed */
+    background-image: url(images/marssurf.jfif); 
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -118,7 +118,7 @@ body {
     color: #f8fafc;
 }
 
-/* Fact rows inside Introduction (tr/th/td tags) */
+
 .Introduction tr {
     display: flex;
     justify-content: space-between;
@@ -182,7 +182,7 @@ body {
 
 .Research.Data li strong {
     font-family: 'Orbitron', sans-serif;
-    color: #ffb86c; /* Warm copper/orange highlight for mission years */
+    color: #ffb86c; 
     font-size: 18px;
 }
 

@@ -2,7 +2,7 @@
 
 /* ------------- GENERAL STYLES ------------- */
 body {
-    background-image: url(images/nepSurf.jfif); /* Replace with local neptune background filename if needed */
+    background-image: url(images/nepSurf.jfif);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -111,7 +111,7 @@ body {
     margin-top: 0;
 }
 
-/* Styling for the "Supersonic winds" paragraph tag before the main block */
+
 .Introduction p:first-of-type {
     font-family: 'Orbitron', sans-serif;
     color: #00f2fe;
@@ -149,7 +149,7 @@ body {
     margin-top: 0;
 }
 
-/* Secondary header for missions */
+
 .Research.Data h2 + h2 {
     font-size: 22px;
     border-bottom: none;
@@ -171,7 +171,7 @@ body {
 
 .Research.Data li strong {
     font-family: 'Orbitron', sans-serif;
-    color: #00f2fe; /* Bright ice-blue highlight for history years */
+    color: #00f2fe; 
     font-size: 18px;
 }
 

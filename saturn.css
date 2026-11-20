@@ -2,7 +2,7 @@
 
 /* ------------- GENERAL STYLES ------------- */
 body {
-    background-image: url(images/saturnsurf.jfif); /* Replace with local saturn background filename if needed */
+    background-image: url(images/saturnsurf.jfif); 
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -111,7 +111,6 @@ body {
     margin-top: 0;
 }
 
-/* Styling for the "Iconic rings" paragraph tagline */
 .Introduction p:first-of-type {
     font-family: 'Orbitron', sans-serif;
     color: #f1c40f;
@@ -149,7 +148,6 @@ body {
     margin-top: 0;
 }
 
-/* Secondary header for missions */
 .Research.Data h2 + h2 {
     font-size: 22px;
     border-bottom: none;
@@ -171,7 +169,7 @@ body {
 
 .Research.Data li strong {
     font-family: 'Orbitron', sans-serif;
-    color: #f1c40f; /* Golden highlight for mission years/milestones */
+    color: #f1c40f; 
     font-size: 18px;
 }
 

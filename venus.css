@@ -138,7 +138,7 @@ body {
 
 #Research-Data li {
     font-family: 'Orbitron', sans-serif;
-    color: #efec96; /* Accent highlight color for list item titles */
+    color: #efec96;
     font-size: 19px;
     margin-top: 20px;
 }
@@ -152,7 +152,7 @@ body {
     line-height: 1.6;
     margin-top: 5px;
     margin-bottom: 15px;
-    color: white; /* Clean light text color for descriptions */
+    color: white; 
 }
 
 /* ------------- GALLERY SECTION ------------- */

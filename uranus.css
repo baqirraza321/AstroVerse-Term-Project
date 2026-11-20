@@ -2,7 +2,7 @@
 
 /* ------------- GENERAL STYLES ------------- */
 body {
-    background-image: url(images/uranussurf.jfif); /* Replace with local uranus background filename if needed */
+    background-image: url(images/uranussurf.jfif); 
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -111,7 +111,6 @@ body {
     margin-top: 0;
 }
 
-/* Styling for the "Spins sideways" paragraph tagline */
 .Introduction p:first-of-type {
     font-family: 'Orbitron', sans-serif;
     color: #70f3ff;
@@ -149,7 +148,7 @@ body {
     margin-top: 0;
 }
 
-/* Secondary header for discovery history / exploration */
+
 .Research.Data h2 + h2 {
     font-size: 22px;
     border-bottom: none;
@@ -171,7 +170,7 @@ body {
 
 .Research.Data li strong {
     font-family: 'Orbitron', sans-serif;
-    color: #70f3ff; /* Bright mint-cyan highlight for years */
+    color: #70f3ff; 
     font-size: 18px;
 }
 

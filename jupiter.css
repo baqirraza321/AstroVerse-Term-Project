@@ -118,7 +118,6 @@ body {
     color: #f8fafc;
 }
 
-/* Fact rows inside Introduction (from your standalone tr/th/td tags) */
 .Introduction tr {
     display: flex;
     justify-content: space-between;
@@ -160,7 +159,6 @@ body {
     margin-top: 0;
 }
 
-/* Secondary header for missions */
 .Research.Data h2 + h2 {
     font-size: 22px;
     border-bottom: none;
@@ -182,7 +180,7 @@ body {
 
 .Research.Data li strong {
     font-family: 'Orbitron', sans-serif;
-    color: #ffd875; /* Warm gold highlight for mission years */
+    color: #ffd875;
     font-size: 18px;
 }
 
