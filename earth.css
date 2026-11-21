@@ -1,6 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;500;600&family=Orbitron:wght@400;500;700&display=swap');
-
-/* ------------- GENERAL STYLES ------------- */
 body {
     background-image: url(images/gemSurface.jfif);
     background-repeat: no-repeat;
@@ -14,8 +12,7 @@ body {
     font-family: 'Exo 2', sans-serif;
     padding: 0 20px 40px 20px;
 }
-
-/* ------------- NAVBAR ------------- */
+/* ------------- Navbar ------------- */
 #hero .Nav-Bar {
     display: flex;
     justify-content: center;
@@ -28,7 +25,6 @@ body {
     backdrop-filter: blur(10px);
     border-bottom: 1px solid rgba(255, 223, 109, 0.3);
 }
-
 #hero .Nav-Bar ul {
     display: flex;
     gap: 50px;
@@ -36,7 +32,6 @@ body {
     margin: 0;
     padding: 0;
 }
-
 #hero .Nav-Bar a {
     text-decoration: none;
     color: #ffdf6d;
@@ -46,7 +41,6 @@ body {
     transition: 0.3s ease;
     display: inline-block;
 }
-
 #hero .Nav-Bar a:hover {
     transform: translateY(-3px);
     padding: 5px 10px;
@@ -54,8 +48,7 @@ body {
     border: #ffdf6d solid 2px;
     border-radius: 8px;
 }
-
-/* ------------- HERO SECTION ------------- */
+/* ------------- Hero Section ------------- */
 #hero .Headings {
     background-color: rgba(15, 23, 42, 0.75);
     max-width: 70%;
@@ -66,7 +59,6 @@ body {
     border: 1px solid rgba(255, 223, 109, 0.2);
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
 }
-
 #hero .Headings h1 {
     color: #ffdf6d;
     font-size: 44px;
@@ -74,14 +66,12 @@ body {
     line-height: 60px;
     margin-bottom: 25px;
 }
-
 #hero .Headings figure img {
     max-width: 100%;
     height: auto;
     border-radius: 15px;
     border: 3px solid #ffdf6d;
 }
-
 #hero .Headings figcaption {
     font-family: 'Exo 2', sans-serif;
     color: #cbd5e1;
@@ -89,8 +79,7 @@ body {
     margin-top: 10px;
     font-style: italic;
 }
-
-/* ------------- INTRODUCTION SECTION ------------- */
+/* ------------- Intro ------------- */
 .Introduction {
     background-color: rgba(15, 23, 42, 0.75);
     max-width: 70%;
@@ -101,7 +90,6 @@ body {
     border: 1px solid rgba(255, 223, 109, 0.2);
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
 }
-
 .Introduction h2 {
     font-family: 'Orbitron', sans-serif;
     color: #ffdf6d;
@@ -110,15 +98,13 @@ body {
     padding-bottom: 10px;
     margin-top: 0;
 }
-
 .Introduction p {
     font-size: 18px;
     line-height: 1.6;
     margin-bottom: 0;
     color: #f8fafc;
 }
-
-/* ------------- RESEARCH DATA SECTION ------------- */
+/* ------------- Research ------------- */
 .Research.Data {
     background-color: rgba(15, 23, 42, 0.75);
     max-width: 70%;
@@ -129,7 +115,6 @@ body {
     border: 1px solid rgba(255, 223, 109, 0.2);
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
 }
-
 .Research.Data h2 {
     font-family: 'Orbitron', sans-serif;
     color: #ffdf6d;
@@ -138,25 +123,21 @@ body {
     padding-bottom: 10px;
     margin-top: 0;
 }
-
 .Research.Data ul {
     padding-left: 20px;
 }
-
 .Research.Data li {
     font-size: 17px;
     line-height: 1.6;
     margin-bottom: 12px;
     color: #f8fafc;
 }
-
 .Research.Data li strong {
     font-family: 'Orbitron', sans-serif;
-    color: #ffeb99; /* Gold highlight for the years */
+    color: #ffeb99;
     font-size: 18px;
 }
-
-/* ------------- GALLERY SECTION ------------- */
+/* ------------- Gallery ------------- */
 .Gallery {
     background-color: rgba(15, 23, 42, 0.75);
     max-width: 70%;
@@ -168,7 +149,6 @@ body {
     border: 1px solid rgba(255, 223, 109, 0.2);
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
 }
-
 .Gallery h2 {
     font-family: 'Orbitron', sans-serif;
     color: #ffdf6d;
@@ -177,7 +157,6 @@ body {
     padding-bottom: 10px;
     margin-top: 0;
 }
-
 .Gallery img {
     width: 150px;
     height: 150px;
@@ -188,13 +167,11 @@ body {
     background-color: rgba(255, 255, 255, 0.1);
     transition: 0.3s ease;
 }
-
 .Gallery img:hover {
     transform: scale(1.05);
     border-color: #ffffff;
 }
-
-/* ------------- FOOTER ------------- */
+/* ------------- Footer ------------- */
 footer {
     background-color: rgba(10, 15, 30, 0.9);
     max-width: 70%;
@@ -205,7 +182,6 @@ footer {
     border: 1px solid rgba(255, 223, 109, 0.3);
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
 }
-
 footer nav ul {
     display: flex;
     justify-content: center;
@@ -215,19 +191,16 @@ footer nav ul {
     margin: 20px 0;
     flex-wrap: wrap;
 }
-
 footer a {
     font-family: 'Orbitron', sans-serif;
     text-decoration: none;
     color: #ffdf6d;
     transition: 0.3s ease;
 }
-
 footer a:hover {
     color: #ffffff;
     text-decoration: underline;
 }
-
 footer p {
     font-family: 'Exo 2', sans-serif;
     margin: 8px 0;

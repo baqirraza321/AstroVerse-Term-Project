@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;500;600&family=Orbitron:wght@400;500;700&display=swap');
 
-/* ------------- GENERAL STYLES ------------- */
 body {
-    background-image: url(images/uranussurf.jfif); /* Replace with local uranus background filename if needed */
+    background-image: url(images/uranussurf.jfif); 
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -15,7 +14,7 @@ body {
     padding: 0 20px 40px 20px;
 }
 
-/* ------------- NAVBAR ------------- */
+/* ------------- Navbar ------------- */
 #hero .Nav-Bar {
     display: flex;
     justify-content: center;
@@ -55,7 +54,7 @@ body {
     border-radius: 8px;
 }
 
-/* ------------- HERO SECTION ------------- */
+/* ------------- Headings ------------- */
 #hero .Headings {
     background-color: rgba(10, 32, 35, 0.8);
     max-width: 70%;
@@ -90,7 +89,7 @@ body {
     font-style: italic;
 }
 
-/* ------------- INTRODUCTION SECTION ------------- */
+/* ------------- Intro ------------- */
 .Introduction {
     background-color: rgba(10, 32, 35, 0.8);
     max-width: 70%;
@@ -111,7 +110,6 @@ body {
     margin-top: 0;
 }
 
-/* Styling for the "Spins sideways" paragraph tagline */
 .Introduction p:first-of-type {
     font-family: 'Orbitron', sans-serif;
     color: #70f3ff;
@@ -128,7 +126,7 @@ body {
     color: #f8fafc;
 }
 
-/* ------------- RESEARCH DATA SECTION ------------- */
+/* ------------- Research ------------- */
 .Research.Data {
     background-color: rgba(10, 32, 35, 0.8);
     max-width: 70%;
@@ -149,7 +147,7 @@ body {
     margin-top: 0;
 }
 
-/* Secondary header for discovery history / exploration */
+
 .Research.Data h2 + h2 {
     font-size: 22px;
     border-bottom: none;
@@ -171,11 +169,11 @@ body {
 
 .Research.Data li strong {
     font-family: 'Orbitron', sans-serif;
-    color: #70f3ff; /* Bright mint-cyan highlight for years */
+    color: #70f3ff; 
     font-size: 18px;
 }
 
-/* ------------- GALLERY SECTION ------------- */
+/* ------------- Gallery ------------- */
 .Gallery {
     background-color: rgba(10, 32, 35, 0.8);
     max-width: 70%;
@@ -213,7 +211,7 @@ body {
     border-color: #ffffff;
 }
 
-/* ------------- FOOTER ------------- */
+/* ------------- Footer ------------- */
 footer {
     background-color: rgba(5, 18, 20, 0.95);
     max-width: 70%;

@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;500;600&family=Orbitron:wght@400;500;700&display=swap');
 
-/* ------------- GENERAL STYLES ------------- */
 body {
     background-image: url('https://media.sciencephoto.com/c0/18/02/21/c0180221-800px-wm.jpg');
     background-repeat: no-repeat;
@@ -15,7 +14,7 @@ body {
     padding: 0 20px 40px 20px;
 }
 
-/* ------------- NAVBAR ------------- */
+/* ------------- Navbar ------------- */
 #Hero .Nav-Bar {
     display: flex;
     justify-content: center;
@@ -58,7 +57,7 @@ body {
     border-radius: 8px;
 }
 
-/* ------------- HERO SECTION ------------- */
+/* ------------- Headings ------------- */
 #Hero .Headings {
     background-color: rgba(77, 50, 38, 0.492);
     max-width: 70%;
@@ -87,7 +86,7 @@ body {
     border: 3px solid #ebd6b6;
 }
 
-/* ------------- INTRODUCTION SECTION ------------- */
+/* ------------- Intro ------------- */
 #Introduction {
     background-color: rgba(77, 50, 38, 0.35);
     max-width: 70%;
@@ -113,7 +112,7 @@ body {
     color: #e8eaf6;
 }
 
-/* ------------- RESEARCH DATA SECTION ------------- */
+/* ------------- Research ------------- */
 #Research-Data {
     background-color: rgba(77, 50, 38, 0.35);
     max-width: 70%;
@@ -138,7 +137,7 @@ body {
 
 #Research-Data li {
     font-family: 'Orbitron', sans-serif;
-    color: #efec96; /* Accent highlight color for list item titles */
+    color: #efec96;
     font-size: 19px;
     margin-top: 20px;
 }
@@ -152,10 +151,10 @@ body {
     line-height: 1.6;
     margin-top: 5px;
     margin-bottom: 15px;
-    color: white; /* Clean light text color for descriptions */
+    color: white; 
 }
 
-/* ------------- GALLERY SECTION ------------- */
+/* ------------- Gallery ------------- */
 #Gallery {
     background-color: rgba(77, 50, 38, 0.35);
     max-width: 70%;
@@ -191,7 +190,7 @@ body {
     border-color: #efec96;
 }
 
-/* ------------- FOOTER ------------- */
+/* ------------- Footer ------------- */
 footer {
     background-color: #00020caa;
     max-width: 70%;
