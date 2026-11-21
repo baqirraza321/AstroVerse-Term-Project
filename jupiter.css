@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;500;600&family=Orbitron:wght@400;500;700&display=swap');
 
-/* ------------- GENERAL STYLES ------------- */
 body {
     background-image: url(images/jupSurface.jfif);
     background-repeat: no-repeat;
@@ -15,7 +14,7 @@ body {
     padding: 0 20px 40px 20px;
 }
 
-/* ------------- NAVBAR ------------- */
+/* ------------- Navbar ------------- */
 #hero .Nav-Bar {
     display: flex;
     justify-content: center;
@@ -90,7 +89,7 @@ body {
     font-style: italic;
 }
 
-/* ------------- INTRODUCTION SECTION ------------- */
+/* ------------- Intro ------------- */
 .Introduction {
     background-color: rgba(30, 15, 8, 0.8);
     max-width: 70%;
@@ -138,7 +137,7 @@ body {
     text-align: right;
 }
 
-/* ------------- RESEARCH DATA SECTION ------------- */
+/* ------------- Research ------------- */
 .Research.Data {
     background-color: rgba(30, 15, 8, 0.8);
     max-width: 70%;
@@ -184,7 +183,7 @@ body {
     font-size: 18px;
 }
 
-/* ------------- GALLERY SECTION ------------- */
+/* ------------- Gallery ------------- */
 .Gallery {
     background-color: rgba(30, 15, 8, 0.8);
     max-width: 70%;
@@ -222,7 +221,7 @@ body {
     border-color: #ffffff;
 }
 
-/* ------------- FOOTER ------------- */
+/* ------------- Footer ------------- */
 footer {
     background-color: rgba(15, 8, 4, 0.95);
     max-width: 70%;
